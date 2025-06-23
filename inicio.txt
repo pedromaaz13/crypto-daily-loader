@@ -1,0 +1,22 @@
+# crear entorno virtual
+python -m venv venv
+
+#para activar librerias y que se ejecute el entorno: (venv) si esta correcto
+venv\Scripts\activate
+
+#instalar librerias
+pip install requests pandas sqlalchemy psycopg2-binary streamlit python-dotenv
+
+#revisar librerias
+pip list
+
+
+
+#Desde el terminal de VSCode, con el entorno virtual activado, ejecutas:
+
+streamlit run app_streamlit.py
+
+#Y podrás abrirlo en tu navegador en:
+http://localhost:8501
+
+
